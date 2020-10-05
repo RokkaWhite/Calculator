@@ -1,0 +1,22 @@
+def main ():
+	a = float (input("Введите первое число"))
+	b = float (input("Введите второе число"))
+	flag = int (input("Выберете действие: 1) + 2) - 3) * 4) /"))
+	res = 0
+	if flag == 1:
+		res = a+b
+	elif flag == 2:
+		res = a - b
+	elif flag == 3:
+		res == a*b
+	elif flag == 4:
+		if b ==0:
+			print ("деление невозможно")
+			return 0
+		res = a/b
+	else:
+		print("Ошибка ввода режима")
+	print(res)
+
+main ()
+	
